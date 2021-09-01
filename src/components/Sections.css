@@ -1,0 +1,19 @@
+.sections {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  min-width: 100px;
+  cursor: pointer;
+}
+
+.sections > p {
+  margin-left: 3px;
+}
+
+.section__selected {
+  background-color: whitesmoke;
+}
+
+.sections:hover {
+  background-color: whitesmoke;
+}

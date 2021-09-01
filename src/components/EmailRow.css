@@ -1,0 +1,43 @@
+.emailRow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emailRow:hover {
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.24);
+}
+
+.emailRow__message > h4 > span {
+  font-weight: normal;
+}
+.emailRow__message > h4 {
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+.emailRow__message {
+  flex: 0.8;
+  font-size: 14px;
+}
+
+.emailRow__title {
+  flex: 0.15;
+  font-size: 14px;
+}
+
+.emailRow__options {
+  display: flex;
+  font-size: 1px;
+}
+.emailRow__title {
+  white-space: nowrap;
+}
+
+.emailRow__title > h3 {
+  margin-right: 50px;
+}

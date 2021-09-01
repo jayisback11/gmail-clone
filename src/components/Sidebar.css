@@ -1,0 +1,31 @@
+.sidebar {
+  flex: 0.15;
+  padding: 5px;
+}
+
+.sidebar__compose {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 10px 10px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.sidebar__compose:hover {
+  background-color: whitesmoke;
+}
+
+.sidebar__compose > p {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sidebar__options {
+  margin-right: 20px;
+}

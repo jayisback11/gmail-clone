@@ -1,0 +1,18 @@
+.center {
+  flex: 0.85;
+}
+.center__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center__sections {
+  display: flex;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  z-index: 2;
+}

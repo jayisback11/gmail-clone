@@ -1,0 +1,19 @@
+.sidebarOptions {
+  display: flex;
+  align-items: center;
+  padding: 5px 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.sidebarOptions > p {
+  margin-left: 13px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.sidebarOptions:hover {
+  background-color: whitesmoke;
+}
