@@ -1,4 +1,4 @@
-## Newness Of Life Ministries Church
+## Gmail Clone
 
 **Version 1.0.0** 
 
